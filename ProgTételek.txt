@@ -1,0 +1,20 @@
+Összegzés:
+int[] tomb =  {8, 9, 5, 4, 1};
+          int n = 5;
+ 
+          Console.WriteLine("Összegzés tétel");
+          int osszeg = 0;
+          for (int i = 0; i < n; i++)
+              osszeg = osszeg + tomb[i];
+          Console.WriteLine("Összeg: " + osszeg);
+
+Minimum kiválasztás:
+int[] t = {4, 3, 9, 7, 2, 5};
+int n = t.Length; 
+int min;
+min = t[0];
+for(int i=1; i<n; i++)
+if(t[i]<min)
+min = t[i];
+ 
+Console.WriteLine("A legkisebb elem: {0}", min);
